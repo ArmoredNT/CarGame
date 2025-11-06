@@ -72,5 +72,7 @@ void Update()
 
 Dirty Flag
 
+https://drive.google.com/file/d/1HhZsuVbmR9w06TI6YPP5\_90blZoFkBxf/view?usp=sharing - dirty flag diagram
 
+In the car script I use dirty flag to prevent checking the timer when the car is inactive. When the timer elaspses it sets a Boolean called active, if this is true the timer will no longer run until it is reset. 
 
